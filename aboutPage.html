@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+        <title>About | Always Blooming Media</title>
+    </head>
+
+    <body>
+        <div id="vanta-bg"></div>
+            <!-- Tab Navigation -->
+        <header>
+            <nav class="nav-container">
+                <ul>
+                    <li><a href="homePage.html">Home</a></li>
+                    <li><a href="servicesPage.html">Services</a></li>
+                    <li><a href="aboutPage.html" class="active">About</a></li>
+                    <li><a href="contactPage.html">Contact</a></li>                </ul>
+            </nav>
+        </header>
+        <main>
+                <!-- Hero-section img and text overlay -->
+            <div class="hero-section page-hero">
+                <div class="image-container">
+                    <img src="Images\hero-section-img.png" alt="hero-section-image">
+                    <div class="text-overlay">
+                        <h1>About Always Blooming Media</h1>
+                        <p>The story, the passion, and the values behind the brand.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Get to Know Me Section -->
+            <section class="story-section">
+                <div class="about-container">
+                    <img src="Images\Headshot.png" alt="Headshot" class="headshot">
+                    <div class="about-text">
+                        <h2>Get to Know Me</h2>
+                        <p>Hi, I'm the face behind Always Blooming Media! I'm passionate about helping brands grow their online presence through thoughtful social media strategies and creative digital marketing. What started as a love for storytelling and design grew into a mission: helping small businesses and creators show up online with confidence and heart.</p>
+                        <p>Whether you're just starting out or looking to level up, I'm here to help your brand bloom, one post, one campaign, and one genuine connection at a time.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Our Values Section -->
+            <section class="values-section">
+                <div class="section-intro">
+                    <h2 class="section-heading">Our Values</h2>
+                    <p class="section-subheading">Every strategy we build is rooted in the same core principles.</p>
+                </div>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <i class="fa-solid fa-heart"></i>
+                        <h3>Authenticity</h3>
+                        <p>Your voice stays yours. We amplify it, we never replace it.</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fa-solid fa-palette"></i>
+                        <h3>Creativity</h3>
+                        <p>Fresh ideas and thoughtful design that help your brand stand out.</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fa-solid fa-arrow-trend-up"></i>
+                        <h3>Growth</h3>
+                        <p>Every decision is guided by measurable, sustainable results.</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fa-solid fa-handshake"></i>
+                        <h3>Trust</h3>
+                        <p>Clear communication and reliability at every step of the way.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+                <!-- Social Media Section -->
+        <section class="social-section">
+            <h2 class="social-heading">Connect with Elegance</h2>
+            <div class="social-icons">
+                <a href="#" class="social-link" aria-label="Instagram" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="TikTok" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="X" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="Pinterest" target="_blank">
+                    <i class="fa-brands fa-pinterest"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="Facebook" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </section>
+
+                <!-- Footer Content -->
+        <footer>
+            <p>&copy; 2026 Always Blooming Media. All rights reserved.</p>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+        <script>
+            VANTA.BIRDS({
+                el: "#vanta-bg",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                backgroundColor: 0x0a0a0a,
+                color1: 0xff69b4
+            });
+        </script>
+    </body>
+</html>
