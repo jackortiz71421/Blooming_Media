@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+        <title>Portfolio | Always Blooming Media</title>
+    </head>
+
+    <body>
+        <div id="vanta-bg"></div>
+            <!-- Tab Navigation -->
+        <header>
+            <nav class="nav-container">
+                <a href="homePage.html" class="nav-brand">Always Blooming Media</a>
+                <ul>
+                    <li><a href="homePage.html">Home</a></li>
+                    <li><a href="servicesPage.html">Services</a></li>
+                    <li><a href="portfolioPage.html" class="active">Portfolio</a></li>
+                    <li><a href="aboutPage.html">About</a></li>
+                    <li><a href="contactPage.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+                <!-- Hero-section img and text overlay -->
+            <div class="hero-section page-hero">
+                <div class="image-container">
+                    <img src="Images\hero-section-img.png" alt="hero-section-image">
+                    <div class="text-overlay">
+                        <h1>My Portfolio</h1>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio Section -->
+            <section class="portfolio-section">
+                <div class="work-together-card">
+                    <h2>How we can work together</h2>
+                    <p>Social media is an amazing tool and outlet, but can be time-consuming and confusing. I’ve got years of experience and want to help bring your vision to life, and help your brand and business bloom.</p>
+                </div>
+                <div class="portfolio-grid">
+                    <a class="project-link" href="project-bloom-co.html">
+                        <article class="project-card">
+                            <div class="project-thumb project-one">
+                                <span>Graphic Design</span>
+                            </div>
+                            <div class="project-content">
+                                <h3>Graphic Design</h3>
+                                <p>Custom visuals that clarify your message and help your brand stand out.</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="project-link" href="project-juniper-studio.html">
+                        <article class="project-card">
+                            <div class="project-thumb project-two">
+                                <span>Branding</span>
+                            </div>
+                            <div class="project-content">
+                                <h3>Branding</h3>
+                                <p>A clear identity that makes your business memorable and consistent.</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="project-link" href="project-velvet-atelier.html">
+                        <article class="project-card">
+                            <div class="project-thumb project-three">
+                                <span>SEO &amp; Analytics</span>
+                            </div>
+                            <div class="project-content">
+                                <h3>SEO &amp; Analytics</h3>
+                                <p>Improve visibility and track what drives real growth for your brand.</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="project-link" href="project-north-pine.html">
+                        <article class="project-card">
+                            <div class="project-thumb project-four">
+                                <span>Video Editing</span>
+                            </div>
+                            <div class="project-content">
+                                <h3>Video Editing</h3>
+                                <p>Turn raw footage into polished content that keeps people watching.</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="project-link" href="project-golden-hour-goods.html">
+                        <article class="project-card">
+                            <div class="project-thumb project-five">
+                                <span>Content Capturing</span>
+                            </div>
+                            <div class="project-content">
+                                <h3>Content Capturing</h3>
+                                <p>Authentic images and video that help your story feel real and engaging.</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="project-link" href="project-harbor-home.html">
+                        <article class="project-card">
+                            <div class="project-thumb project-six">
+                                <span>Content Strategy</span>
+                            </div>
+                            <div class="project-content">
+                                <h3>Content Strategy</h3>
+                                <p>A smart plan that keeps your content aligned, consistent, and effective.</p>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+            </section>
+        </main>
+                <!-- Social Media Section -->
+        <section class="social-section">
+            <h2 class="social-heading">Connect with Elegance</h2>
+            <div class="social-icons">
+                <a href="#" class="social-link" aria-label="Instagram" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="TikTok" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="X" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="Pinterest" target="_blank">
+                    <i class="fa-brands fa-pinterest"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="Facebook" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </section>
+
+                <!-- Footer Content -->
+        <footer>
+            <p>&copy; 2026 Always Blooming Media. All rights reserved.</p>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+        <script>
+            VANTA.BIRDS({
+                el: "#vanta-bg",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                backgroundColor: 0x0a0a0a,
+                color1: 0xff69b4
+            });
+        </script>
+    </body>
+</html>

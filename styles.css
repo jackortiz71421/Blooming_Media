@@ -65,7 +65,7 @@ body {
 .image-container {
   position: relative;
   width: 100%;
-  min-height: 400px;
+  min-height: 260px;
 }
 
 .image-container img {
@@ -108,7 +108,7 @@ body {
 
 .text-overlay h1 {
   font-family: 'Georgia', serif;
-  font-size: 3rem;
+  font-size: 4.8rem;
   font-weight: 700;
   color: white;
   text-shadow: 2px 4px 12px rgba(0, 0, 0, 0.6);
@@ -118,11 +118,39 @@ body {
 
 .text-overlay p {
   font-family: 'Georgia', serif;
-  font-size: 1.1rem;
+  font-size: 2.4rem;
   color: #f0e6d2;
   text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.55);
-  line-height: 1.7;
+  line-height: 1.2;
   margin-bottom: 28px;
+}
+
+.work-together-card {
+  max-width: 1100px;
+  margin: 0 auto 32px;
+  background: rgba(18, 18, 18, 0.85);
+  border: 1px solid rgba(255, 105, 180, 0.25);
+  border-radius: 20px;
+  padding: 28px 32px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.work-together-card h2 {
+  font-family: 'Georgia', serif;
+  font-size: 2.4rem;
+  color: #ff69b4;
+  margin: 0 0 12px;
+}
+
+.work-together-card p {
+  font-family: 'Georgia', serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #ccc;
+  margin: 0;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .cta-button {
@@ -425,6 +453,197 @@ footer {
   line-height: 1.7;
 }
 
+/* Portfolio Page */
+.portfolio-section {
+  padding: 56px 32px;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 32px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.project-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-card {
+  background: rgba(18, 18, 18, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 105, 180, 0.25);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 100%;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.65), 0 0 24px rgba(255, 105, 180, 0.5), 0 0 45px rgba(255, 105, 180, 0.25);
+}
+
+.project-thumb {
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 20px;
+  font-family: 'Georgia', serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+  text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(255, 105, 180, 0.2);
+}
+
+.project-one {
+  background: linear-gradient(135deg, rgba(255, 105, 180, 0.8), rgba(116, 92, 190, 0.8));
+}
+
+.project-two {
+  background: linear-gradient(135deg, rgba(255, 180, 118, 0.8), rgba(255, 105, 180, 0.8));
+}
+
+.project-three {
+  background: linear-gradient(135deg, rgba(136, 87, 167, 0.8), rgba(92, 142, 192, 0.8));
+}
+
+.project-four {
+  background: linear-gradient(135deg, rgba(75, 160, 142, 0.8), rgba(255, 105, 180, 0.7));
+}
+
+.project-five {
+  background: linear-gradient(135deg, rgba(235, 125, 149, 0.8), rgba(228, 177, 83, 0.8));
+}
+
+.project-six {
+  background: linear-gradient(135deg, rgba(88, 90, 199, 0.8), rgba(255, 105, 180, 0.7));
+}
+
+.project-content {
+  padding: 24px 22px 28px;
+}
+
+.project-content h3 {
+  font-family: 'Georgia', serif;
+  font-size: 1.8rem;
+  color: #ff69b4;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.project-content p {
+  font-family: 'Georgia', serif;
+  font-size: 0.85rem;
+  color: #ccc;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.project-detail-page {
+  padding: 56px 32px;
+}
+
+.detail-shell {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: rgba(18, 18, 18, 0.85);
+  border: 1px solid rgba(255, 105, 180, 0.25);
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.detail-hero {
+  height: 240px;
+  display: flex;
+  align-items: end;
+  padding: 32px;
+  font-family: 'Georgia', serif;
+  color: #fff;
+  text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.detail-hero h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.detail-body {
+  padding: 32px;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  margin-bottom: 30px;
+}
+
+.detail-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  padding: 22px;
+}
+
+.detail-card span {
+  display: block;
+  font-family: 'Georgia', serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ff69b4;
+  margin-bottom: 10px;
+}
+
+.detail-card p,
+.detail-card li {
+  font-family: 'Georgia', serif;
+  color: #ccc;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.detail-card ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.project-header-actions {
+  padding: 12px 32px 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  background: #ff69b4;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 999px;
+  font-family: 'Georgia', serif;
+  font-weight: 600;
+  box-shadow: 0 8px 20px rgba(255, 105, 180, 0.25);
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.back-button:hover {
+  background: #ff85c2;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(255, 105, 180, 0.35);
+}
+
 /* About Page */
 .story-section {
   padding: 48px 32px 8px;
@@ -549,7 +768,7 @@ footer {
   font-size: 0.95rem;
   color: #f0f0f0;
   box-sizing: border-box;
-  transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .contact-form-card input::placeholder,
@@ -561,11 +780,45 @@ footer {
 .contact-form-card textarea:focus {
   outline: none;
   border-color: #ff69b4;
+  box-shadow: 0 0 0 4px rgba(255, 105, 180, 0.12);
 }
 
 .contact-form-card textarea {
   resize: vertical;
   min-height: 120px;
+}
+
+.hidden-field {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.form-status {
+  display: none;
+  margin-top: 4px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  font-family: 'Georgia', serif;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.form-status.success {
+  display: block;
+  background: rgba(34, 197, 94, 0.12);
+  border: 1px solid rgba(34, 197, 94, 0.35);
+  color: #c5f5d5;
+}
+
+.form-status.error {
+  display: block;
+  background: rgba(239, 68, 68, 0.12);
+  border: 1px solid rgba(239, 68, 68, 0.35);
+  color: #fecaca;
 }
 
 .contact-info-card p {

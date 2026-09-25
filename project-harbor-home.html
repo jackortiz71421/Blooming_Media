@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+        <title>Content Strategy | Portfolio</title>
+    </head>
+    <body>
+        <div id="vanta-bg"></div>
+        <header>
+            <nav class="nav-container">
+                <a href="homePage.html" class="nav-brand">Always Blooming Media</a>
+                <ul>
+                    <li><a href="homePage.html">Home</a></li>
+                    <li><a href="servicesPage.html">Services</a></li>
+                    <li><a href="portfolioPage.html" class="active">Portfolio</a></li>
+                    <li><a href="aboutPage.html">About</a></li>
+                    <li><a href="contactPage.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="project-header-actions">
+                <a class="back-button" href="portfolioPage.html">&larr; Back to Portfolio</a>
+            </div>
+        </header>
+
+        <main class="project-detail-page">
+            <div class="detail-shell">
+                <div class="detail-hero project-six">
+                    <h1>Content Strategy</h1>
+                </div>
+                <div class="detail-body">
+                    <div class="detail-card">
+                        <span>Coming Soon</span>
+                        <p>Project details will be added here soon.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Always Blooming Media. All rights reserved.</p>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+        <script>
+            VANTA.BIRDS({ el: '#vanta-bg', mouseControls: true, touchControls: true, gyroControls: false, minHeight: 200, minWidth: 200, scale: 1, scaleMobile: 1, backgroundColor: 0x0a0a0a, color1: 0xff69b4 });
+        </script>
+    </body>
+</html>
